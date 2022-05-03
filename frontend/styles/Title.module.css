@@ -1,0 +1,32 @@
+.title {
+    width: 100%;
+    min-height: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.title h2 {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 17px;
+}
+
+.title__lines {
+    display: flex;
+}
+
+.title__lines span {
+  margin-top: 10px;
+  height:2px;
+  width:95%;
+  background: #eee;
+}
+
+.title__lines span:first-child {
+    flex-basis: 50px;
+    background: #f90;
+}
+.title__lines span:last-child {
+    flex:0.7;
+}

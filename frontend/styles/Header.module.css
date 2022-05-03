@@ -1,0 +1,146 @@
+.header__topnav {
+    background: #b50207;
+}
+
+.header__topnav_cover {
+    width: 1068px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    font-size: 11px;
+    color: #fff;
+}
+
+.header__socials {
+    font-weight: 600;
+    padding: 5px;
+}
+
+.header__socials span{
+    margin-right:15px;
+}
+
+.header__midnav_cover {
+    width: 1068px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: gradient(#fff,0%,#f5f5f5,100%);
+}
+
+.header__topad {
+    flex:0.7;
+ }
+
+.header__logo {
+   flex:0.3;
+}
+
+.header__logo img {
+   max-height: 80px;
+   border-radius: 25px 60px;
+   box-shadow: 0 0 5px 1px #f37c29 ;
+}
+
+/* Navbar */
+.header__mainav {
+    background: #b50207;
+}
+
+.header__mainav_cover {
+   width: 1068px;
+   height: 48px;
+   display: flex;
+   justify-content:space-between;
+   position: relative;
+   margin: 0 auto;
+   box-sizing: border-box;
+}
+
+.header__stickylogo {
+   display:none;
+   flex: 0.1
+}
+
+.header__navul {
+    display: flex;
+    flex:0.7;
+    align-items: center;
+    list-style: none;
+}
+
+.header__navul li {
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 10px 18px;
+   font-size: 14px;
+   font-weight: 700;
+   color: white;
+   cursor: pointer;
+   box-sizing: border-box;
+}
+
+.header__navul li.active,  .header__navul li:hover{
+    border-bottom: 3px solid #f37c29;
+    padding-bottom: 7px;
+    /*color:#b50207*/
+}
+
+.header__searchbtn {
+    flex: 0.1;
+    align-self: center;
+    justify-self: flex-end;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.header__search_cover { 
+    width: 342px;
+    padding: 15px;
+    background: #f5f5f5;
+    border-top: 3px solid #f37c29;
+    box-shadow: 0 0 3px #ddd inset;
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position: absolute;
+    top: 93%;
+    right: 0;
+    
+}
+
+.header__search_cover_none { 
+   display: none;
+}
+
+.header__search_cover input{
+    flex: 0.9;
+    padding: 7px 15px;
+    border: 1px solid #333333;
+    border-right: none;
+    border-radius: 15px 0 0 15px;
+    font-size: 12px;
+    color: #666;
+ }
+
+ .header__search_cover button{
+    flex: 0.1;
+    padding: 7px 15px 6px;
+    border: 1px solid #333;
+    background:#333;
+    border-radius: 0 15px 15px 0;
+    color:#f37c29;
+    font-weight: bolder;
+    cursor: pointer;
+ }
+
+

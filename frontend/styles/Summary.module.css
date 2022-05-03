@@ -1,0 +1,39 @@
+.summary {
+   width: 100%;
+   max-width:400px;
+   display: flex;
+}
+
+.summary img {
+   width: 100px;
+   height: 70px;
+   aspect-ratio: auto 100 / 70;
+   flex: 0.3;
+   border:1px solid red;
+   margin-right: 15px;
+}
+
+.summary_title_cover {
+    flex: 0.7;
+    align-items: flex-start;
+    justify-content:flex-start;
+}
+
+.summary_title_cover h3{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.summary_title_cover span {
+    color: #666;
+    font-size:12px;
+    font-weight:400;
+}
+/*
+width: 100px;
+    aspect-ratio: auto 100 / 70;
+    height: 70px;
+
+*/
